@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 
-
 interface NewTodoProps {
     onAddTodo: (todoText: string)=>void;
 }

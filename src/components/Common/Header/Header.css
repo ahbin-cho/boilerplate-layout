@@ -1,0 +1,35 @@
+.header-nav-top {
+    position: absolute;
+    top: 1px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 110px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-inner {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    border: dotted;
+    padding: 5px;
+}
+.nav-logo-icon {
+    width: 70px;
+}
+
+.nav-menulist > a {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 20px;
+    transition: all 0.3s ease-in-out;
+
+    border-right-style: inset;
+    text-decoration: none;
+}
